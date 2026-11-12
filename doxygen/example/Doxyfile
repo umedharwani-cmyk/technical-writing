@@ -1,0 +1,11 @@
+# Minimal Doxyfile. Everything not listed uses Doxygen's default.
+# Generate a full one with:  doxygen -g Doxyfile.full
+PROJECT_NAME           = "Calculator Example"
+PROJECT_BRIEF          = "Demo for the TW Doxygen exercise"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = calculator.cpp
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+CALL_GRAPH             = YES

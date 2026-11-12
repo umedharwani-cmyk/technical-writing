@@ -1,0 +1,59 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+
+\title{Introduction to Beamer}
+\author{Umed harwani}
+\institute{MNIT Jaipur}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{What is Beamer?}
+Beamer is a LaTeX class for making slides.
+You write the slides as code and compile them to a PDF.
+\end{frame}
+
+\begin{frame}{Why I Use It}
+\begin{itemize}
+    \item<1-> Equations look clean
+    \item<2-> Layout stays consistent across slides
+    \item<3-> Overlays reveal points one at a time
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Steps to Make a Deck}
+\begin{enumerate}
+    \item Pick the \texttt{beamer} class
+    \item Fill in title, author, date
+    \item Add one \texttt{frame} per slide
+    \item Compile with \texttt{pdflatex}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Equations}
+Quadratic formula:
+\[
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\]
+\end{frame}
+
+\begin{frame}[fragile]{Code on a Slide}
+\begin{verbatim}
+#include <iostream>
+int main() {
+    std::cout << "Hello World";
+    return 0;
+}
+\end{verbatim}
+\end{frame}
+
+\begin{frame}{Summary}
+Beamer is a good fit for technical talks: equations, code and
+step-by-step reveals all work out of the box.
+\end{frame}
+
+\end{document}
